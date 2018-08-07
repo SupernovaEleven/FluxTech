@@ -62,7 +62,8 @@ loginButton.addEventListener('click', e => {
 			var errorMessage = error.message;
 			// ...
 		});
-
+loginButton.classList.add('hidden')
+window.location = 'index3.html'
 	// Handle Errors here.
 
 	document.querySelector('#email').value = ""
