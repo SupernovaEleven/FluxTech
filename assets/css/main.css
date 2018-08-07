@@ -2430,10 +2430,10 @@ input, select, textarea {
 			display: block;
 		}
 	.container {
+		padding:50px;
 		position: relative;
 		text-align: center;
 		color: #FF6550;
-		padding:100px;
 	}
 	
 	.centered {
@@ -2442,7 +2442,7 @@ input, select, textarea {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		color: #000066;
-		font-size:27px;
+		font-size:20px;
 	}
 		.image.left, .image.right {
 			max-width: 40%;
@@ -2467,11 +2467,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 1.6em 0;
-			width:90%;
+			width: 40%;
 		}
 
 			.image.fit img {
-				width:100%;
+				width: 100%;
 			}
 
 		.image.main {
