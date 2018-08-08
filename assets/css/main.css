@@ -2438,7 +2438,7 @@ input, select, textarea {
 	
 	.centered {
 		position: absolute;
-		top: 50%;
+		top: 75.2%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		color: #000066;
@@ -2467,9 +2467,16 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 1.6em 0;
-			width: 40%;
+			width: 55.3%;
 		}
-
+		.image.fitmore {
+			display: block;
+			margin: 0 0 1.6em 0;
+			width: 84%;
+		}
+		.image.fitmore img {
+			width: 100%;
+		}
 			.image.fit img {
 				width: 100%;
 			}
@@ -3795,8 +3802,8 @@ input, select, textarea {
 		background-position: center top;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 100vh;
-		min-height: 35em;
+		height: 137vh;
+		min-height: 40em;
 	}
 
 		#header input[type="submit"],
